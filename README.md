@@ -1,2 +1,5 @@
 # rock-paper-scissors
-an easy javascript game 
+# taş-kağıt-makas
+
+an easy javascript game
+basit bir javascript oyunu
