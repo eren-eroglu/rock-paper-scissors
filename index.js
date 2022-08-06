@@ -44,12 +44,13 @@ function playRound(playerSelection, computerSelection) {
 
      
 
-    const playerSelection = prompt('rock,paper, or scissors?');
+ 
   
 
 
     function game()  {
         for (let i = 0; i < 5; i++) {
+            const playerSelection = prompt('rock,paper, or scissors?', 'rock,paper,scissors').toLowerCase();
             const computerSelection = getComputerChoice()
             console.log(playRound(playerSelection, computerSelection));
          }if (playerScore > compScore) {
