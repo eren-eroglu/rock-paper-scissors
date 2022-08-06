@@ -54,13 +54,13 @@ function playRound(playerSelection, computerSelection) {
             const computerSelection = getComputerChoice()
             console.log(playRound(playerSelection, computerSelection));
          }if (playerScore > compScore) {
-            return 'YOU WON !'
+            return console.log('YOU WON !')
          }else if (playerScore<compScore) {
-            return 'you got beat by computer'
+            return console.log('you got beat by computer')
          }else {
-            return 'you tied with the computer'
+            return console.log('you tied with the computer')
          }
     }
 
-alert(game())
+
 
